@@ -1,0 +1,899 @@
+ /*
+ importaion de google font Raleway
+ */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+ *{
+    box-sizing: border-box;
+ }
+ /* body */
+  #my_body{
+    width: 992px;
+    margin: auto;
+    margin:15px 0 15px 15px;
+     
+   
+         
+  } 
+  /* header et nav */
+  header{
+    display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-direction: column;
+  }
+  header h2, p, section h2, h4, p{
+    font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* la navbar*/
+  nav{
+    display: flex;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    
+    
+  }
+  nav ul{
+     display: flex;
+    margin-left: 700px;
+    list-style: none;
+    align-items: flex-end;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 500px;
+     
+     
+  }
+  nav li a{
+    text-decoration: none;
+    margin-right: 60px;
+    margin-top: 0;
+     
+  }
+  nav li a:hover{
+    color: #b8860b;
+  }
+  /* le logo */
+  #logo{
+    display: flex;
+    margin-left: 20px;
+      
+     
+    
+     
+  }
+  #logo img{
+     width: 60px;
+     height: 60px;
+     margin-left: 69px;
+      
+     
+      
+      
+  }
+  /* le tritre de la navbar*/
+  #nav_title{
+    display: flex;
+    flex-direction: column;
+     margin-right: 260px;
+     margin-top: 15px; 
+    font-size: 10px;
+       
+  }
+     
+      
+      
+  /* le formulaire du filtre*/
+  form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-right: 220px;
+     
+     
+  }
+  .localisation{
+    display: flex;
+    margin-left: -0.4em;
+    
+    
+     
+  }
+   .fa-person  {
+    border: 2px solid #F2F2F2;
+      background-color: #F2F2F2;
+      border-radius: 2px 1px 2px 2px;
+     
+   
+      
+      
+  }
+  /* figures*/
+    .fa-location-dot{
+      margin-top: 5px;
+      padding-left: 4px;
+      margin-bottom: 0;
+         border: 1px solid #F2F2F2; 
+         background-color: #F2F2F2; 
+         border-radius: 2px 1px 2px 2px;
+       
+    }
+   
+
+  .fa-money-bill-wave {
+    border: 2px solid #F2F2F2;
+      background-color: #F2F2F2;
+      border-radius: 2px 1px 2px 2px;
+
+  }
+   
+  .fa-heart{
+    border: 10px solid #F2F2F2;
+      background-color: #F2F2F2;
+      border-radius: 2px 1px 2px 2px;
+
+  }
+  .fa-dog{
+    border: 2px solid #F2F2F2;
+      background-color: #F2F2F2;
+      border-radius: 2px 1px 2px 2px;
+  }
+  /*filtrer*/
+  .filtrer{
+    display: flex;
+    margin-top: 10px;
+  }
+  .label input{
+    border:1px solid   #F2F2F2 ;
+    box-shadow: 0 0 0 2.5px #F2F2F2;
+      border-radius: 10px 50px 50px 10px; 
+       
+     
+     
+  }
+  #label{
+    border-width: 2px 4px;
+      border-radius: 40px;
+  }
+  .label{
+    margin-left: 0;
+  }
+  /* boutton recherrche*/
+  .recherche{
+    background-color:#0000FF;
+    border-radius: 10px 50px 50px 10px;
+    padding-right: 15px;
+  }
+  .recherche{
+    color: white;
+    font-size: 20px;
+  }
+  /* le filtre*/
+  .filtrer{
+    display: flex;
+    justify-content: space-between;
+     margin-top: 20px;
+      width: 102%;
+     
+  }
+  .filtrer a{
+    text-decoration: none;
+    padding-top: 5px;
+    margin-left: 1px;
+    color: black;
+     
+    
+     
+  }
+  /* le lien pour le filtre de l'information*/
+ .filtre-economique a{
+  margin-left: 10px;
+   
+ }
+    
+  .fa-money-bill-wave{
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 10px;
+    border-width: 2px 4px;
+      border:1px solid rgba(0 0 0 2.5px #F2F2F2);
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+   
+     
+  }
+.fa-money-bill-wave::before{
+  
+  border: 1px solid #F2F2F2;
+  padding: 10px ;
+  margin-left: -1.1em;
+  border-radius: 20px;
+  background-color: #F2F2F2;
+   
+  
+}
+  
+  .fa-heart{
+    padding-top: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      font-size: 10px;
+      background-color: white;
+      border-width: 2px 4px;
+      border: 1px solid rgba(0 0 0 2.5px #F2F2F2);
+        border-radius: 40px 40px 40px 40px;
+
+  }
+  .fa-heart::before{
+    padding: 10px;
+    margin-left: -1.1em;
+      border-radius: 20px ;
+    background-color: #F2F2F2;
+     
+  }
+  .fa-dog{
+    padding-top: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      font-size: 10px;
+      background-color: white;
+      border-width: 2px 4px;
+    border: 1px solid rgba(0 0 0 2.5px #F2F2F2);
+      border-radius: 40px 40px 40px 40px;
+     
+
+  }
+  .fa-dog::before{
+    padding: 10px;
+    margin-left: -1.1em;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+     
+  }
+  .fa-person{
+    font-size:10px ;
+    border-width: 2px 4px;
+      padding-top: 5px;
+      padding: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color: white;
+      border: 1px solid rgba(0 0 0 2.5px #F2F2F2);
+      border-radius: 40px 40px 40px 40px;
+         
+  }
+  .fa-person::before{
+    border: 1px solid #F2F2F2;
+       padding: 10px;
+      margin-left: -1.1em;
+      border-radius: 20px;
+    background-color:#F2F2F2;
+    
+  }
+  .fa-info{
+     padding: 5px;
+    border: 1px solid #F2F2F2;
+      background-color: #F2F2F2;
+      border-radius: 20px;
+      margin-left: 1em;
+      
+       
+  }
+  
+  header p{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 460px;
+  }
+  .fa-solid::before{
+    
+    padding-right: 10px;
+  }
+
+
+  /*
+  hébergement
+  */
+  section{
+    display: flex;
+    flex-direction: column;
+     
+     
+
+  }
+  #hebergement  {
+      width: 71%;
+     margin-left: 60px;
+     padding: 15px;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 20px;
+     
+    
+     
+  }
+    #hebergement h2 {
+      display: flex;
+      position: absolute;
+      margin-left: 25px;
+      margin-top: 5px;
+      font-size: 20px;
+       
+       
+    }
+    /* description 1*/
+  .description1{
+    position:relative;
+    width: 28.6%;
+     height: auto;
+    margin-bottom: 20px;
+    margin-top: 49px;
+    margin-left: 24px;
+    padding-bottom: 10px;
+      background-color: white;
+      border: 1px solid white;
+      border-radius: 20px;
+       
+       
+      
+     
+  }
+  
+  #id_description1{
+    margin: auto;
+    
+     
+     
+  }
+    #id_description1 h4{
+      font-size: 14px;
+      text-align: center;
+      margin: auto;
+    }
+    span{
+        
+      padding-left: 10px;
+       
+    }
+    /*
+    etoile
+    */
+    .fa-regular{
+      padding-left: 10px;
+       
+    }
+
+
+
+    /*description 2*/
+    .description2 {
+      position: absolute;
+      width: 12.7%;
+       height: auto;
+      margin-top: -12.9em;
+      margin-left: 245px;
+      padding-bottom: 20px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        
+        
+       
+      
+  
+  
+  
+    }
+/* nom de la description 2 hébergement*/
+     #descrip{
+       margin-left: 9px;
+       
+       
+       
+        
+       
+
+    }
+        
+   
+  
+  .description3  {
+    position: absolute;
+    width: 12.7%;
+     height: auto;
+      margin-left: 460px;
+      margin-top: -12.7em;
+       padding-bottom: 22px;
+      background-color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+         
+         
+        
+       
+     
+       
+   
+  }
+    
+   #id_description3 h4{
+    margin: auto;
+    margin-left: 10px;
+       
+
+   }
+   
+  .description4{
+    width: 28.6%;
+     height: auto;
+    margin-top: 3em;
+    margin-left: 22px;
+    padding-bottom: 10px;
+    background-color: white;
+      border: 1px solid white;
+      border-radius: 20px;
+      
+       
+       
+    
+    
+  }
+  #id_description4 h4{
+    margin: auto;
+  }
+  .description5{
+    margin-top: 3em;
+    width: 28.6%;
+      height:auto;
+      margin-left: 240px;
+      margin-top: -10.8em;
+      padding-bottom: 10px;
+      background-color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        
+        
+         
+      
+       
+  }
+    #id_description5 h4{
+      margin: auto;
+    }
+  .description6{
+    margin-top: 3em;
+    width: 28.6%;
+      height: auto;
+      margin-left: 460px;
+        margin-top: -10.7em;
+        padding-bottom: 10px;
+        background-color: white;
+          border: 1px solid white;
+          border-radius: 20px;
+           
+           
+           
+        
+       
+  }
+  /*image hébergement*/
+  .id_description img{
+    margin-left: 5px;
+    margin-top: 3.1px;
+    border-radius: 10px;
+  }
+  .id_description h4{
+    margin: auto;
+    padding-left: 10px;
+  }
+
+   /* l'affichage*/
+  #afficher{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  /* aside*/
+  aside{
+    width: 33%;
+    height: 75%;
+    display: flex;
+      float: right;
+      margin-left: 49em;
+      position: absolute;
+      margin-top: 0;
+      margin-bottom: 0;
+      background-color: #F2F2F2;
+        border: 1px solid white;
+          border-radius: 20px;
+           
+          
+       
+
+  }
+  aside h2{
+     position: absolute;
+    font-size: 16px;
+    margin-left:2em; 
+    margin-top: 20px; 
+     
+     
+     
+  }
+  #populaire{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+     
+  }
+  /* l'etoile placée devant le h2 de popuaire*/
+  #etoile_populaire{
+    display: flex;
+    margin-left: 24em;
+    margin-top: -29px;
+    border: 1px solid #F2F2F2;
+      background-color: #F2F2F2;
+      border-radius: 20px;
+  }
+  /* image de la partie populaire partie 1*/
+    .description_aside1{
+       position: relative;
+      width: 78%;
+      height:  22%;
+      padding-top: 5px;
+      padding-left: 6px;
+      margin-left: 30px;
+      margin-top: 23px;
+        border-radius: 20px;
+        background-color: white;
+          border: 1px solid white;
+           
+    }
+    #info1{
+      display: flex;
+        
+    }
+    #info1 img{
+      border: 1px solid white;
+        border-radius: 10px 1px 1px 10px;
+    }
+    #info1 h4{
+      padding-left: 20px;
+      font-size: 20px;
+       margin-top: 1px;
+    }
+     .paragrahe{
+       position: absolute;
+      margin-top: 45px;
+      margin-left: 10em;
+       
+    }
+    .prix{
+      position: absolute;
+      margin-top: 45px;
+      margin-left:17em ;
+       
+    }
+    .etoile{
+      position: absolute;
+      margin-top: 80px;
+      margin-left: 11em;
+      
+    }
+    /*
+    l'image 2 de la section populaire partie 2
+    */
+         .description_aside2 {
+           position: relative;
+           width: 78%;
+           height: 22%;
+           margin-top: 30px;
+           padding-top: 6px;
+           padding-left: 6px;
+           margin-left: 30px;
+            border-radius: 20px;
+            background-color: white;
+              border: 1px solid white;
+               
+         }
+ #info2 img {
+   border: 1px solid white;
+   border-radius: 10px 1px 1px 10px;
+ }
+    #info2 {
+      display: flex;
+  
+    }
+  #info2 h4 {
+          padding-left: 28px;
+          font-size: 20px;
+          margin-top: 1px;
+        }
+.paragrahe2 {
+     position: absolute;
+    margin-top: 45px;
+      margin-left: 11em;
+  }
+    
+.prix2 {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 17.8em;
+
+}
+ .etoile2 {
+   position: absolute;
+   margin-top: 80px;
+   margin-left: 11em;
+   
+ }
+    /*
+      l'image 2 de la section populaire partie 3
+      */
+.description_aside3 {
+  position: relative;
+  width: 78%;
+  height: 22%;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-left: 6px;
+  margin-left: 30px;
+    border-radius: 20px;
+    background-color: white;
+      border: 1px solid white;
+       
+}
+#info3 img {
+  border: 1px solid white;
+  border-radius: 10px 1px 1px 10px;
+}
+
+#info3 {
+  display: flex;
+
+}
+
+#info3 h4 {
+  padding-left: 28px;
+  font-size: 20px;
+  margin-top: 1px;
+}
+
+.paragrahe3 {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 11em;
+}
+
+.prix3 {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 17.8em;
+
+}
+
+.etoile3 {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 11em;
+   
+}
+
+/*****************************/
+
+   
+       
+
+    .description_aside{
+      border-radius: 30px;
+        
+      
+    }
+  .description_aside img{
+    margin-left: 20px;
+    padding: 15px;
+     
+  }
+.description_aside h4 {
+    font-size: 5px;
+     
+  }
+  
+  #info h4{
+     
+     margin-left: 15px;
+     font-size: 9px;
+     
+     
+  }
+  #info span{
+     
+    font-size: 9px;
+      
+     
+  }
+
+  #span{
+    margin-bottom: 10em;
+    line-height: 1.2px;
+  }
+   
+  /* activité*/
+  #activites{
+    width: 99%;
+    margin-left: 12px;
+     background-color: white;
+     
+     
+     
+     
+  }
+  #activites h2{
+    margin-top: 35px;
+    margin-left: 60px;
+    width: 30%;
+    display: flex;
+    
+
+  }
+  .image_large1{
+     position: relative;
+    margin-top: 20px;
+    width: 19%;
+    height: auto;
+    margin-left: 65px;
+     
+    
+    
+     
+     
+  }
+  .image_large1 img{
+    margin-left: 5px;
+    width: 180px;
+    height: 220px;
+    border: 1px solid white;
+      border-radius: 10px;
+  }
+  
+  .image_petite1{
+     position: absolute;
+      margin-top: 60px;
+      width: 14%;
+      height:auto;
+      margin-top: -17em;
+      margin-left: 17em;
+       
+       
+      
+
+  } 
+  .image_large1 p{
+    text-align: center;
+     
+  }
+  .image1 img{
+    margin-left: 15px;
+    border: 1px solid white;
+      border-radius: 20px 20px 1px 1px;
+
+  }
+  .image1 p{
+    margin-top: 5px;
+    text-align: center;
+  }
+  #image_lage2{
+     
+    width: 18%;
+    height:auto;
+    margin-left: 32em;
+    margin-top: -17em;
+     
+
+  }
+  #image_lage2 img{
+    margin-left: 8px;
+    border: 1px solid white;
+      border-radius: 10px;
+  }
+  #image_lage2 p{
+    text-align: center;
+  }
+  .image_petite2{
+    width: 20%;
+       height: auto;
+      margin-left:45em ;
+      margin-top: -17em;
+     
+
+  }
+  .image2_petite img{
+    margin-left: 8px;
+    border: 1px solid white;
+      border-radius: 20px 20px 1px 1px;
+  }
+  .image_petite2 p{
+    margin-top: 9px;
+    text-align: center;
+  }
+  /*
+  le footer
+  */
+  footer{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    background-color: #F2F2F2;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 1px solid white;
+    border-radius: 20px;
+     
+  }
+   #apropos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 20%;
+     
+     
+     
+   }
+   #apropos h2{
+    font-family:'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+      color: black;
+      font-size: 14px;
+      
+   }
+   #apropos a{
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 14px;
+     
+     
+     
+   }
+   #nos_hebergement {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+      width: 19%;
+      margin-left: 50px;
+       
+   }
+   #nos_hebergement h2{
+    font-size: 14px;
+   }
+   #nos_hebergement a{
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 14px;
+   }
+  #assistance{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+      width: 19%;
+      padding-right: 30px;
+       
+  }
+  #assistance h2{
+    font-size: 14px;
+  }
+  #assistance a{
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 14px;
+  }
+
+  
