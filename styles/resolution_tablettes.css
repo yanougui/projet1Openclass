@@ -1,0 +1,287 @@
+  #my_body {
+      width:auto;
+      text-align: left;
+       
+   
+  }
+  /* header*/
+  .filtrer{
+     
+    margin-bottom: 15px;
+     
+  }
+  .phrase-infor{
+    width: auto;
+    margin: auto;
+    font-size: 24px;
+    
+     
+  }
+    
+   /* navbar*/
+   nav{
+    width: auto;
+     margin: auto;
+     
+   }
+     nav ul {
+        width: auto; 
+             
+            padding-left: -20em;
+             
+             
+             
+        }
+   /*logo*/
+   #logo{
+    width: auto;
+    
+     
+   }
+   #logo img{
+     width: auto;
+     margin-right: 42em;
+     
+   }
+   ul li a{
+      
+     margin-left: -3em;
+     
+   }
+   
+   #logo ul{
+    width: auto;
+    margin: auto;
+     text-align: center;
+   }
+   #logo ul{
+     margin-left: 20px;
+    margin-left: 3em;
+   }
+    
+   /* le slogan du site*/
+   #nav_title{
+    margin: auto;
+     
+   }
+   #nav_title h2{
+    padding-top: 15px;
+   }
+   #nav_title p{
+    margin-top: -8px;
+   }
+   
+   /*la bare de géolocalisation: formulaire de saisie*/
+   form {
+       width: auto;
+       margin: auto;
+   }
+.localisation{
+    margin-top: 15px;
+    margin-left: 36px;
+     
+
+}
+/*label des animeaux*/
+.fa-dog{
+    margin-top: 10px;
+   
+}
+.filtrer{
+     margin-left: 2em;
+     padding-top: 10px;
+
+    
+}
+ 
+.phrase-infor{
+    padding-left: 10px;
+     
+}
+
+/* hébergement*/
+section{
+    width: 90%;
+     margin-top: 15px;
+     
+}
+#hebergement{
+width: 78%;
+height: 60%;
+margin-left: 5em;
+padding-left: 0px;
+margin-top: 15px;
+ 
+ 
+}
+#hebergement h2{
+     width: 50%;
+     
+}
+.description1{
+    position: relative;
+    width: 43.9%;
+    margin-left: 1em;
+    
+     
+     
+}
+#id_description1{
+     width: auto;
+      
+}
+.description2{
+    position: absolute;
+    width: 30%;
+    padding-bottom: 22px;
+     margin-left: 14em;
+      
+     
+     
+     
+     
+
+}
+ 
+.description3{
+    position: absolute;
+    width: 30%;
+    margin-top: 3.3em;
+    margin-left: 1em;
+  
+     
+}
+.description4{
+    width: 44.3%;
+     margin-top: 16.5em;
+     margin-left: 1em;
+     
+     
+
+}
+.description5{
+    width: 30%;
+    position: absolute;
+    margin-top: -23.7em;
+    padding-bottom: 15px;
+    margin-left: 14em;
+    
+    
+}
+.description6 {
+    width: 30%;
+    position: absolute;
+    margin-left: 14em;
+   
+      
+      
+     
+}
+
+/* les images du coté droite */
+aside{
+    width: 67%;
+    height: 75%;
+    display: block;
+    margin-left: 5em;
+    margin-top: 48em;
+    
+    
+     
+     
+      
+}
+.paragrahe {
+     
+    margin-left: 9.5em;
+}
+.prix {
+     
+    margin-left: 16.4em;
+
+}
+/*activité*/
+#activites{
+    width:76%;
+    margin-top: 39em;
+    padding-bottom: 20em;
+    margin-left: 5em;
+    
+    
+     
+     
+}
+#activites h2{
+    position: absolute;
+        font-size: 16px;
+        margin-top: 19px;
+        
+     
+}
+ .image_large1{
+    position: relative;
+        margin-top: 4em;
+        width: 41.5%;
+        margin-left: 1em;
+        padding-left: 10px;
+        
+           
+           
+}
+.image_large1 img{
+    margin-left: -0.3em;
+}
+ 
+ 
+.image_petite1{
+      position: absolute;
+      margin-top: -16.5em;
+      margin-left: 14em;
+    width: 31%;
+    height: 23%;
+    
+     
+}
+
+#image_lage2 {
+    width: 27%;
+    position: absolute;
+    margin-left: 1em;
+    margin-top: 2em;
+     
+     
+    
+}
+ 
+.image_petite2 {
+    width: 29%;
+    position: absolute;
+    margin-left: 14em;
+    margin-top: 2em;
+     
+    
+}
+ 
+/*footer*/
+footer{
+    width: 85%;
+    height: 90%;
+    margin-left: 4px;
+    margin-top: 2em;
+    padding-bottom: 10px;
+     
+}
+#apropos a{
+    font-size: 10px;
+    line-height: 1.2;
+}
+#nos_hebergement a{
+    font-size: 10px;
+    line-height: 1.2;
+
+}
+#assistance a{
+font-size: 10px;
+line-height: 1.2;
+}
+  

@@ -7,7 +7,8 @@
     <title>Booki</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" media="(max-width:768px)" href="styles/petite_resolution.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="styles/resolution_tablettes.css">
+    <link rel="stylesheet" media="(max-width:406px)" href="styles/resolution_telephone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,8 +24,8 @@
                     <img src="images/logo/Booki.png" alt="le logo du site">
                  
                 <ul>
-                    <li><a href="#">Hébergement</a></li>
-                    <li><a href="#">Activité</a></li>
+                    <li><a href="#" class="souligner">Hébergement</a></li>
+                    <li><a href="#" class="souligner">Activité</a></li>
                 </ul>
                 </div>
              </nav>
@@ -45,7 +46,7 @@
                     </div>
                 </div>
                 <div class="filtrer">
-                    <a href="#">Filtres</a>
+                    <a href="#" id="id_filtre">Filtres</a>
                      <div class="filtre-economique">
                         <i class="fa-solid fa-money-bill-wave"><a href="#" >Economique</a></i>
                         <i class="fa-sharp fa-solid fa-person"><a href="#">Familial</a></i>
@@ -141,7 +142,9 @@
                             <i class="fa-regular fa-star"></i>
                          </div>
                     </div>
-                    <p id="afficher">Afficher plus</p>
+                    <div id="afficher"><a href="#">Afficher plus</a></div>
+                     
+                     
             </article>
             <!--les images du coté droite-->
             <aside>
@@ -150,7 +153,7 @@
                     <div id="etoile_populaire"><i class="fa-regular fa-star"></i></div>
                     <div class="description_aside1">
                          
-                         <div id="info1">
+                         <div class="info1">
                             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo du'une chambre avec un lit"
                                 width="150" height="100">
                             <h4>Hôtel le soleil du matin</h4><br>
@@ -165,12 +168,12 @@
                     </div>
                     <div class="description_aside2">
                          
-                         <div id="info2">
+                         <div class="info1">
                             <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo d'une chambre avec un lit"
                                 width="150" height="100">
                             <h4>Auceur de l'eau Chambre d'hôtel</h4><br>
-                            <span class="paragrahe2">Nuit à partir de</span> <strong strong class="prix2">73€</strong><br>
-                            <div class="etoile2">
+                            <span class="paragrahe">Nuit à partir de</span> <strong strong class="prix">73€</strong><br>
+                            <div class="etoile">
                                 <i class="fa-regular fa-star"></i>
                                 <i class="fa-regular fa-star"></i>
                                 <i class="fa-regular fa-star"></i>
@@ -182,12 +185,12 @@
                     <div class="description_aside3">
                          
                          
-                        <div id="info3">
+                        <div class="info1">
                             <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre avec un lit"
                                 width="150" height="100">
                             <h4>Hôtel Tout bleu et Blanc</h4><br>
-                            <span class="paragrahe3">Nuit à partir de</span> <strong class="prix3">73€</strong><br>
-                        <div class="etoile3">
+                            <span class="paragrahe">Nuit à partir de</span> <strong class="prix">73€</strong><br>
+                        <div class="etoile">
                             <i class="fa-regular fa-star"></i>
                             <i class="fa-regular fa-star"></i>
                             <i class="fa-regular fa-star"></i>
@@ -211,12 +214,12 @@
                     </div>
                     <!--première deux petites-->
                     <div class="image_petite1">
-                         <div class="image1">
+                         <div class="image">
                             <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo de roches"   width="180" height="100">
                              <p>port de pomegues</p>
                          </div> 
 
-                        <div class="image1" >
+                        <div class="image" >
                              
                             <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo d'un bateau" width="180" height="70">
                             <p>iles du Frioul</p>
@@ -229,11 +232,11 @@
                     </div>
                     <!--deuxième deux petite image -->
                     <div class="image_petite2">
-                        <div class="image2_petite">
+                        <div class="image">
                             <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo des maisons" width="180" height="100">
                             <p>Notre Dame de-la-Garde</p>
                         </div>
-                        <div class="image2_petite">
+                        <div class="image">
                     
                             <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo d'un chateau" width="180" height="70">
                             <p>Parc Longchamp</p>

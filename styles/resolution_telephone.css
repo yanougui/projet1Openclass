@@ -1,0 +1,425 @@
+#my_body{
+    width: 165%;
+     text-align: center;
+     margin-left: 0.2em;
+    
+    
+}
+/* header*/
+header{
+     
+    width: auto;
+    
+}
+/*navbar*/
+nav{
+    width: 105%;
+    height: 70%;
+    margin-left: 0em;
+    
+    
+         
+     
+}
+/*logo image*/
+#logo{
+    display: block;
+    
+     
+}
+#logo img{
+     margin: auto;
+     padding-bottom: 2em;
+     margin-left: 10.7em;
+     
+   
+     
+    
+}
+/*element de la bare de navigation*/
+ #logo ul{
+    width: auto;
+    text-align: center;
+     margin-left: -25.5em;
+    
+     
+    
+     
+
+     
+ }
+ ul li a{
+     font-size: 15px;
+    padding: 20px;
+    margin-left: 10px;
+     
+   
+     
+ }
+ .souligner:hover{
+    border-bottom: 1px solid;
+     
+ }
+ /* le titre ou le slogan du site*/
+#nav_title h2{
+    width: 50%;
+    font-size: 22px;
+   margin-right: 1em; 
+   
+    
+     
+}
+#nav_title p{
+    font-size: 20px;
+    width: 90%;
+    margin-left: 10px;
+     
+  
+
+}
+ /* la de la géolocalisation*/
+ form{
+    width:auto ;
+      
+    
+ }
+ .localisation{
+    width:  60%;
+    margin-right: 20em;
+     
+ }
+ .recherche{
+    border-radius: 30px 30px 30px 30px;
+        padding-right: 8px;
+    
+ }
+ #id_filtre{
+     position: relative;
+    height: 25px;
+    margin-top: -1em;
+    margin-left: 0em;
+    
+ }
+ .filtre-economique{
+    position: absolute;
+    width: 60%;
+    height: 200%;
+    margin-top: 30px;
+    margin-left: -2em;
+    
+    
+ }
+ .fa-money-bill-wave{
+      position: relative;
+    margin-right: 43em;
+    
+ }
+ .fa-person{
+    position: absolute;
+    margin-left: 17em;
+    margin-top: -3em;
+     
+ }
+ 
+ .fa-heart{
+    position: absolute;
+    margin-top: 1em;
+    margin-left:1em;
+    
+ }
+ .fa-dog{
+    margin-top: 7em;
+    margin-right: 40em;
+    padding-left: 1em;
+      
+ }
+ .fa-dog::before{
+    margin-right: 20em;
+ }
+ .fa-dog a{
+     
+    display: block;
+    margin-top: -1em;
+     
+ }
+ .filtrer{
+     width: 98%;
+     height: auto;
+  
+ }
+  
+ /* la phrase de description*/
+ .phrase-infor{
+     
+    margin-top: 19em;
+    font-size: 13px;
+    margin-left: -1em;
+   
+     
+     
+    
+ }
+ .fa-info{
+    margin-right: 1em;
+    
+ }
+ /*aside*/
+ aside{
+    width: 87%; 
+    margin-left: 2em;
+    margin-top: 2em;
+    
+    
+     
+     
+ }
+ .description_aside1{
+    width: 98%;
+    margin-left: 0em;
+    
+ }
+ .description_aside2{
+    width: 98%;
+    margin-left: 0em;
+     
+ }
+ .description_aside3{
+    width: 98%;
+        margin-left: 0em;
+    
+ }
+ .info1 h4{
+    font-size: 11px;
+    margin-right: 1em;
+     
+ }
+ 
+
+ /*hébergement*/
+ #hebergement{
+    width: 64%;
+    height:  auto;
+    margin-top:38em;
+    padding-bottom: 9em;
+    margin-left: 1em;
+    
+    
+    
+     
+    
+     
+ }
+ #hebergement h2{
+    width: auto;
+    margin-left: 2.5em;
+     
+     
+ }
+ 
+ .description1{
+    width: 99%;
+    margin-left: 0.2em;
+    padding-bottom: 6.9em;
+     
+     
+     
+ }
+.description2{
+    width: 93%;
+    height: 23.1%;
+    margin-left: 0.2em;
+    margin-top: 1.5em;
+     
+    
+    
+}
+.description3{
+    width: 93%;
+    height: 23%;
+    margin-top: 18.1em;
+    margin-left: 0.2em;
+    
+     
+    
+}
+.description4{
+    width: 93%;
+    height: 23%;
+    position:absolute;
+    margin-left: 0.2em;
+    margin-top: 35em;
+   
+   
+     
+     
+}
+.description5{
+    width: 93%;
+    height: 23%;
+    margin-top: 51.5em;
+    margin-left: 0.2em;
+    
+     
+     
+}
+.description6{
+    width: 93%;
+    height: 23%;
+    margin-top: 68em;
+    margin-left: 0.2em;
+     
+    
+  
+}
+/*le recadrement des images*/
+.id_description{
+    width: 390px;
+    height: 100px;
+     
+}
+.id_description img{
+    width: 320px;
+    height: 150px;
+    margin-left: -1.5em;
+    
+}
+/* la phrase afficher*/
+#afficher{
+    font-size: 30px;
+    margin-top: 45.7em;
+    margin-left: 2em;
+}
+
+/*les activités*/
+#activites{
+    width: 64.6%;
+    display: block;
+    margin-top: 2em;
+    padding-bottom: 80em;
+    margin-left: 1em;
+  
+    
+     
+     
+}
+#activites h2{
+    width: 80%;
+    font-size: 30px;
+    margin-left: 1.5em;
+     
+     
+     
+}
+.image_large1{
+     width: 76%;
+     height: 90%;
+     margin-top: 5em;
+     margin-left: 2em;
+     
+    
+     
+     
+}
+/* les images des activités*/
+.image_large1 img{
+    width: 350px;
+    height: 150px;
+     margin-left: -2.4em;
+    margin-top: 10px;
+     
+}
+.image img{
+    width: 340px;
+        height: 150px;
+        margin-top: 10px;
+        margin-left: -4em;
+
+}
+#image_lage2 img{
+    width: 340px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left:-3.8em ;
+
+}
+.image2_petite img{
+    width: 350px;
+        height: 150px;
+        margin-top: 10px;
+        margin-right: 50px;
+}
+.image_petite1{
+    width: 96%;
+    height: 45%;
+     margin-top: 1.5em;
+     margin-left: 2em;
+  
+     
+     
+}
+#image_lage2{
+    width: 96%;
+    margin-top: 29.5em;
+    margin-left: 2em;
+     
+    
+    
+}
+.image_petite2{
+    width: 95%;
+    margin-top: 45.4em;
+    margin-left: 2em;
+   
+    
+     
+}
+/*footer*/
+footer{
+    width: 73%;
+    display: block;
+    margin-left: 0em;
+    margin-top: -0em;
+   
+     
+    
+     
+}
+#apropos{
+    width: auto;
+    margin-right: 10em;
+      
+}
+#apropos h2{
+     text-align: center;
+}
+ #apropos a{
+     
+    text-align: left;
+    margin-left: 9em;
+} 
+#nos_hebergement{
+    width: auto;
+    margin-right: 10em;
+}
+#nos_hebergement h2{
+    text-align: center;
+    margin-left: 5em;
+}
+#nos_hebergement a {
+    text-align: left;
+    margin-left: 13em;
+    
+    
+}
+#assistance{
+    width: auto;
+    margin-right: 10em;
+}
+#assistance h2{
+text-align: center;
+margin-left: 4em;
+}
+ #assistance a{
+    text-align: left;
+    margin-left: 12em;
+} 
