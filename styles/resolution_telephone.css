@@ -198,8 +198,7 @@ nav{
  /*hébergement*/
  #hebergement{
     width: 64%;
-    height:  auto;
-    margin-top:38em;
+    margin-top:35em;
     padding-bottom: 9em;
     margin-left: 1em;
     
@@ -286,7 +285,7 @@ nav{
 /* la phrase afficher*/
 #afficher{
     font-size: 30px;
-    margin-top: 45.7em;
+    margin-top: 1em;
     margin-left: 2em;
 }
 
