@@ -1,6 +1,10 @@
   #my_body {
       width:auto;
       text-align: left;
+      
+      margin-left: 1px;
+      
+       
        
    
   }
@@ -24,14 +28,14 @@
      margin: auto;
      
    }
+    
      nav ul {
         width: auto; 
-             
-            padding-left: -20em;
-             
-             
+         
              
         }
+         
+        
    /*logo*/
    #logo{
     width: auto;
@@ -41,6 +45,9 @@
    #logo img{
      width: auto;
      margin-right: 42em;
+     padding-top: 2em;
+    
+      
      
    }
    ul li a{
@@ -61,14 +68,25 @@
     
    /* le slogan du site*/
    #nav_title{
-    margin: auto;
+    margin-left: 0em;
+    width: 60%;
+     
+    
      
    }
    #nav_title h2{
     padding-top: 15px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    position: relative;
+     
    }
    #nav_title p{
-    margin-top: -8px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 1em;
+    
    }
    
    /*la bare de géolocalisation: formulaire de saisie*/
@@ -89,13 +107,17 @@
 }
 .filtrer{
      margin-left: 2em;
-     padding-top: 10px;
+     padding-top: 1px;
+     
 
     
 }
  
 .phrase-infor{
     padding-left: 10px;
+    font-size: 17.2px;
+    margin-right: 12.2em;
+     
      
 }
 
@@ -114,6 +136,7 @@ margin-top: 15px;
  
  
 }
+
 #hebergement h2{
      width: 50%;
      
@@ -122,6 +145,7 @@ margin-top: 15px;
     position: relative;
     width: 43.9%;
     margin-left: 1em;
+     
     
      
      
@@ -177,14 +201,19 @@ margin-top: 15px;
       
      
 }
+.id_description img{
+    width: 212px;
+    margin-left: 0.5em;
+}
 
 /* les images du coté droite */
 aside{
-    width: 67%;
+    width: 68.7%;
     height: 75%;
     display: block;
     margin-left: 5em;
     margin-top: 48em;
+     
     
     
      
@@ -197,15 +226,16 @@ aside{
 }
 .prix {
      
-    margin-left: 16.4em;
+    margin-left: 18em;
 
 }
 /*activité*/
 #activites{
     width:76%;
-    margin-top: 39em;
+    margin-top: 36em;
     padding-bottom: 20em;
     margin-left: 5em;
+    
     
     
      
@@ -224,6 +254,7 @@ aside{
         width: 41.5%;
         margin-left: 1em;
         padding-left: 10px;
+       
         
            
            
@@ -236,9 +267,11 @@ aside{
 .image_petite1{
       position: absolute;
       margin-top: -16.5em;
-      margin-left: 14em;
-    width: 31%;
-    height: 23%;
+      margin-left: 18em;
+    width: 30%;
+    height: 37%;
+     
+     
     
      
 }
@@ -248,6 +281,7 @@ aside{
     position: absolute;
     margin-left: 1em;
     margin-top: 2em;
+    
      
      
     
@@ -256,8 +290,9 @@ aside{
 .image_petite2 {
     width: 29%;
     position: absolute;
-    margin-left: 14em;
+    margin-left: 18em;
     margin-top: 2em;
+    
      
     
 }
@@ -268,20 +303,30 @@ footer{
     height: 90%;
     margin-left: 4px;
     margin-top: 2em;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
+    
      
 }
 #apropos a{
-    font-size: 10px;
-    line-height: 1.2;
+    font-size: 7px;
+    line-height: 1.6;
+}
+#apropos h2{
+    font-size: 12px;
 }
 #nos_hebergement a{
-    font-size: 10px;
-    line-height: 1.2;
+    font-size: 7px;
+    line-height: 1.6;
 
 }
+#nos_hebergement h2{
+    font-size:12px ;
+}
+#assistance h2{
+    font-size: 12px;
+}
 #assistance a{
-font-size: 10px;
-line-height: 1.2;
+font-size: 7px;
+line-height: 1.6;
 }
   
