@@ -1,12 +1,9 @@
   #my_body {
-      width:auto;
+      width: 992px;
       text-align: left;
-      
       margin-left: 1px;
-      
-       
-       
-   
+    
+     
   }
   /* header*/
   .filtrer{
@@ -24,80 +21,102 @@
     
    /* navbar*/
    nav{
-    width: auto;
-     margin: auto;
+    width: 99%;
+    height: 70px;
+    margin-left: 0em;
+    position: relative;
+      
      
    }
     
      nav ul {
-        width: auto; 
+        width: 80%; 
+        margin: 0;
+        position: absolute;
          
-             
         }
+        ul li{
+            width: 35%;
+            margin-left: 2.8em;
+              
+        }
+         
          
         
    /*logo*/
    #logo{
     width: auto;
     
+    
      
    }
    #logo img{
-     width: auto;
-     margin-right: 42em;
-     padding-top: 2em;
+     width: 19%;
+     height: 51px;
+     position: absolute;
+     margin-left: 2em;
+     margin-top: 0.3em;
+     
+      
+    
     
       
      
    }
    ul li a{
       
-     margin-left: -3em;
+     margin-left: 15em;
      
+     
+    
    }
+    
    
+  
    #logo ul{
-    width: auto;
-    margin: auto;
-     text-align: center;
-   }
-   #logo ul{
-     margin-left: 20px;
-    margin-left: 3em;
-   }
+    margin-left: 6em;
+    margin-top: 0.7em;
+     
+     
+   } 
     
    /* le slogan du site*/
    #nav_title{
-    margin-left: 0em;
-    width: 60%;
-     
-    
-     
+    margin-right: 3.8em;
+    margin-top: 0.5em;
+    width: 92%;
+   
    }
    #nav_title h2{
     padding-top: 15px;
-    margin-left: 10px;
+    margin-left: 39px;
     font-size: 1.5em;
     position: relative;
+     
      
    }
    #nav_title p{
     position: absolute;
-    margin-top: 60px;
-    margin-left: 10px;
+    width: 50%;
+    margin-top: 67px;
+    margin-left: 2.7em;
     font-size: 1em;
+   
     
+     
    }
    
    /*la bare de géolocalisation: formulaire de saisie*/
    form {
        width: auto;
-       margin: auto;
+       margin-right: 13.5em;
+        
    }
 .localisation{
-    margin-top: 15px;
-    margin-left: 36px;
-     
+    width: 70%;
+    margin-top: 19px;
+    margin-left: 14px;
+  
 
 }
 /*label des animeaux*/
@@ -106,17 +125,79 @@
    
 }
 .filtrer{
-     margin-left: 2em;
+     margin-left: 0em;
      padding-top: 1px;
+      
      
 
     
 }
+ #id_filtre {
+     margin-left: 20px;
+     margin-top: 10px;
+     position: absolute;
+     
+
+
+
+ }
+ .fa-location-dot{
+     
+    height: 44px;
+ }
+ .fa-location-dot::before{
+    margin-left: 5px;
+     
+ }
+
+   .fa-money-bill-wave {
+       height: 50%;
+       width: 18%;
+       margin-left: 8em;
+ 
+
+   }
+
+   
+.fa-child-reaching {
+   
+
+    margin-left: 25em;
+    height:4em ;
+    
+  
+}
+.fa-money-bill-wave::before{
+    margin-left: -3em;
+     
+}
+  .fa-heart {
+      
+
+      margin-left: 38em;
+       
+
+
+
+  }
+  .fa-dog {
+       
+      margin-top: 1px;
+      margin-left: 54em;
+       
+  
+  }
+
+
  
 .phrase-infor{
-    padding-left: 10px;
+    width: 69%;
     font-size: 17.2px;
-    margin-right: 12.2em;
+    margin-right: 14.4em;
+    margin-top: -1em;
+     
+    
+     
      
      
 }
@@ -124,174 +205,295 @@
 /* hébergement*/
 section{
     width: 90%;
-     margin-top: 15px;
+    margin-top: 15px;
+      
      
 }
 #hebergement{
-width: 78%;
-height: 60%;
-margin-left: 5em;
-padding-left: 0px;
-margin-top: 15px;
+    width: 105%;
+    height: 60%;
+    margin-left: 2.5em;
+    padding-left: 0px;
+    margin-top: 15px;
  
  
+ 
+ 
+ 
+}
+
+.description1 {
+    display: inline-block;
+    width: 47%;
+    height: auto;
+    margin-bottom: -11px;
+    margin-top: 40px;
+    margin-left: 19.6px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 20px;
+    
+     
+
+
 }
 
 #hebergement h2{
      width: 50%;
      
 }
-.description1{
-    position: relative;
-    width: 43.9%;
-    margin-left: 1em;
-     
-    
-     
-     
-}
-#id_description1{
-     width: auto;
-      
-}
-.description2{
-    position: absolute;
-    width: 30%;
-    padding-bottom: 22px;
-     margin-left: 14em;
-      
-     
-     
-     
-     
-
-}
  
-.description3{
-    position: absolute;
-    width: 30%;
-    margin-top: 3.3em;
-    margin-left: 1em;
-  
-     
-}
-.description4{
-    width: 44.3%;
-     margin-top: 16.5em;
-     margin-left: 1em;
-     
-     
-
-}
-.description5{
-    width: 30%;
-    position: absolute;
-    margin-top: -23.7em;
-    padding-bottom: 15px;
-    margin-left: 14em;
-    
-    
-}
-.description6 {
-    width: 30%;
-    position: absolute;
-    margin-left: 14em;
-   
-      
-      
-     
-}
 .id_description img{
-    width: 212px;
-    margin-left: 0.5em;
+    width: 425px;
+    height: 230px;
+    margin-left: 0.3em;
 }
+.phrase-infor{
+    margin-left: 17px;
+     
+}
+
+.fa-circle-info{
+    margin-right: 10px;
+     
+}
+ .id_description i {
+     margin-top: 10px;
+     width: 15%;
+     
+ 
+ }
 
 /* les images du coté droite */
 aside{
-    width: 68.7%;
-    height: 75%;
+    width: 95%;
+    height: 120%;
     display: block;
-    margin-left: 5em;
-    margin-top: 48em;
+    margin-left: 2.6em;
+    margin-top: 77em;
      
     
     
      
+   
+}
+ 
+.info1 img {
+    
+    width: 300px;
+    height: 230px;
+
+}
+aside h2{
+    margin-left: 1.1em;
      
-      
+    
+}
+.info1 h4{
+    font-size: 20px;
+     
+}
+
+ 
+
+.description_aside1 strong{
+    margin-top: 1.6em;
+    
+     
+     
+
 }
 .paragrahe {
      
-    margin-left: 9.5em;
+    margin-left: 19em;
+    margin-top: 1.7em;
+     
+     
 }
 .prix {
+     position: absolute;
+    margin-left: 26.7em;
+    margin-top: -3em;
+      
+    
      
-    margin-left: 18em;
 
 }
-/*activité*/
-#activites{
-    width:76%;
-    margin-top: 36em;
-    padding-bottom: 20em;
-    margin-left: 5em;
-    
+.euro1 {
+    font-weight: bold;
+    position: absolute;
+    margin-left: 28.2em;
     
     
      
+
+
+}
+
+.euro2 {
+    font-weight: bold;
+    position: absolute;
+    margin-left: 27.6em;
+   
+
+
+}
+.euro {
+    font-weight: bold;
+    position: absolute;
+    margin-left: 27.9em;
+
+
+
+
+
+
+}
+ #etoile_populaire i::before {
+      
+     margin-left: 32em;
+     
+ }
+   .description_aside1 i {
+       margin-left: -0.7em;
+       width: 10%;
+        
+       
+        
+
+
+
+   }
+   .etoile {
+            position: absolute;
+            margin-top: 13em;
+            margin-left: 19.9em;
+            width: 30%;
+    
+    
+    
+    
+        }
+ .une_etoile {
+     width: 109%;
+     
+
+
+
+
+ }
+ 
+/*activité*/
+#activites{
+    width:105%;
+    margin-top: 59em;
+    padding-bottom: 25em;
+    margin-left: 2.9em;
+     
+     
+    
+  
      
 }
 #activites h2{
     position: absolute;
-        font-size: 16px;
-        margin-top: 19px;
+    font-size: 16px;
+    margin-top: 19.9px;
         
      
 }
  .image_large1{
     position: relative;
-        margin-top: 4em;
-        width: 41.5%;
-        margin-left: 1em;
-        padding-left: 10px;
-       
-        
-           
+    margin-top: 4em;
+    width: 41.5%;
+    margin-left: 0.8em;
+    padding-left: 10px;
+    
            
 }
+.image_large1 p{
+    width: 113%;
+    margin-left:-0.2em;
+    font-size: 14px;
+    
+    
+    
+     
+}
 .image_large1 img{
-    margin-left: -0.3em;
+    margin-left: -0.2em;
+    margin-top: -0.1em;
+    width: 430px;
+    height: 290px;
 }
  
  
 .image_petite1{
-      position: absolute;
-      margin-top: -16.5em;
-      margin-left: 18em;
-    width: 30%;
+    position: absolute;
+    margin-top: -22em;
+    padding-top: 0.2em;
+    margin-left: 30em;
+    width: 29%;
     height: 37%;
-     
      
     
      
+  
 }
+.image_petite1 p{
+    width: 153%;
+    margin-top: -1em;
+    font-size: 14px;
+    margin-left: 0em;
+    
+    
+    
+    
+     
+}
+.image img{
+    width: 430px;
+    height: 120px;
+}
+
 
 #image_lage2 {
     width: 27%;
     position: absolute;
-    margin-left: 1em;
+    margin-left: 0.8em;
     margin-top: 2em;
+     
+   
+    
+}
+#image_lage2 p{
+    width: 165%;
+    font-size: 14px;
+   
+   
     
      
-     
     
+}
+#image_lage2 img{
+    width: 430px;
+    height: 290px;
 }
  
 .image_petite2 {
     width: 29%;
     position: absolute;
-    margin-left: 18em;
+    margin-left: 30em;
     margin-top: 2em;
+     
+  
+}
+.image_petite2 p{
+    width: 153.6%;
+    margin-top: -1em;
+    font-size: 14px;
+    margin-left: -0.1em;
+    
     
      
     
@@ -299,34 +501,57 @@ aside{
  
 /*footer*/
 footer{
-    width: 85%;
-    height: 90%;
-    margin-left: 4px;
+    width: 99.9%;
+    height: 20em;
+    margin-left: 0px;
     margin-top: 2em;
     padding-bottom: 1px;
-    
      
+     
+   
 }
+ #apropos{
+    
+    width: 30%;
+    margin-left: 4em;
+     
+    
+    
+ }
 #apropos a{
-    font-size: 7px;
+    font-size: 13px;
     line-height: 1.6;
 }
 #apropos h2{
-    font-size: 12px;
+    font-size: 18px;
+}
+#nos_hebergement{
+    width: 30%;
+    margin-left: 9em;
+     
+    
+    
 }
 #nos_hebergement a{
-    font-size: 7px;
+    font-size: 13px;
     line-height: 1.6;
 
 }
 #nos_hebergement h2{
-    font-size:12px ;
+    font-size:18px ;
+}
+#assistance{
+    width: 26%;
+    margin-left: 6em;
+    
+    
+     
 }
 #assistance h2{
-    font-size: 12px;
+    font-size: 18px;
 }
 #assistance a{
-font-size: 7px;
+font-size: 13px;
 line-height: 1.6;
 }
   
